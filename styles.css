@@ -1,19 +1,18 @@
 :root {
   color-scheme: light;
-  --bg: #ec8a5c;
-  --surface: #f8e79a;
-  --text: #111827;
-  --muted: #4f5257;
-  --primary: #021848;
-  --primary-soft: #424d72;
-  --border: #3b3d41;
-  --shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+  --bg: #f5ebe4;
+  --surface: #f7e2ce;
+  --text: #3b2e2e;
+  --muted: #7a5a45;
+  --primary: #9b5c2b;
+  --primary-soft: #c78f68;
+  --border: #d8b59b;
+  --shadow: 0 24px 80px rgba(75, 45, 26, 0.12);
 }
 
 * {
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -48,7 +47,7 @@ textarea {
 
 .site-header {
   background: var(--surface);
-  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  border-bottom: 1px solid rgba(151, 104, 67, 0.2);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -89,7 +88,7 @@ textarea {
 .hero-card {
   border-radius: 32px;
   overflow: hidden;
-  background: linear-gradient(135deg, #eef2ff 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #fff4e8 0%, #f7e0cf 100%);
   padding: 1rem;
   box-shadow: var(--shadow);
 }
@@ -156,8 +155,9 @@ h2 {
 }
 
 .button-secondary {
-  background: var(--primary-soft);
+  background: var(--surface);
   color: var(--primary);
+  border: 1px solid rgba(155, 92, 43, 0.2);
 }
 
 .portfolio,
